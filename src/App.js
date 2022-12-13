@@ -15,7 +15,7 @@ const App = () => {
         <Row style={{ marginTop: "140px" }}>
           <Col sm={12} md={8}>
             <h1 className="text-success">
-              Crafting compelling content for your business
+              Ask me anything
             </h1>
             <h4 className="mt-3 text-muted">
               Maximizing your online presence for maximum impact

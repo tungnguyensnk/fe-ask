@@ -1,5 +1,5 @@
 ![Logo](https://raw.githubusercontent.com/deepakmp444/react-openai-GPT-3/main/src/assests/ss_app.png?token=GHSAT0AAAAAABW4GCPMKC4HMTOUQWPIKREQY4TATIA)
-# AI Content
+# Ask me anything
 
 Integrated with Open AI, Here you can generate Content & Image
 

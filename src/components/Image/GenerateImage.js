@@ -61,12 +61,6 @@ function GenerateImage() {
               <Dropdown.Item eventKey="3" onClick={() => setSize("Large")}>
                 Large
               </Dropdown.Item>
-              <Dropdown.Item
-                eventKey="4"
-                onClick={() => setSize("Extra Large")}
-              >
-                Extra Large
-              </Dropdown.Item>
             </DropdownButton>
             <button className="btn btn-outline-primary" onClick={ImgSearch}>
               Search
@@ -94,7 +88,7 @@ function GenerateImage() {
         {state === "done" &&
           data.map((value, index) => {
             return (
-              <Col key={index} sm={4}>
+              <Col key={index} sm={4} className="mb-2">
                 <CardComponent value={value} />
               </Col>
             );
