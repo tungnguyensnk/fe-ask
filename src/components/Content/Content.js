@@ -15,7 +15,7 @@ function Content() {
     }
     try {
       setState("loading");
-      const response = await axios.post(process.env.REACT_APP_API_TEXT, {
+      const response = await axios.post("http://tungsnk.tech:4000/api/ai/text", {
         prompt: inputText,
       });
       setData(response.data.message);

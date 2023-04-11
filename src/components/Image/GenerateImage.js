@@ -24,7 +24,7 @@ function GenerateImage() {
     }
     try {
       setState("loading");
-      const response = await axios.post(process.env.REACT_APP_API_IMG, {
+      const response = await axios.post("http://tungsnk.tech:4000/api/ai/img", {
         prompt: inputText,
         size: size.toLowerCase().toString(),
       });
