@@ -7,7 +7,7 @@ function NavbarComponent() {
       fluid
       className="bg-dark p-3 text-white text-center display-6 fixed-top"
     >
-      Integrated with Open AI
+      Ask Anything
     </Container>
   );
 }

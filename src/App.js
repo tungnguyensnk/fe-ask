@@ -18,7 +18,7 @@ const App = () => {
               Ask me anything
             </h1>
             <h4 className="mt-3 text-muted">
-              Maximizing your online presence for maximum impact
+              Tích hợp với các API OpenAI để tạo ra nội dung phù hợp với yêu cầu
             </h4>
           </Col>
           <Col sm={12} md={4}>
@@ -40,7 +40,7 @@ const App = () => {
               } btn-lg`}
               onClick={() => setTab("searchText")}
             >
-              Content
+              Text
             </button>
             <div>
               <button

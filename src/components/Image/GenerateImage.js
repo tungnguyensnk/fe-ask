@@ -75,8 +75,7 @@ function GenerateImage() {
           {state === "normal" && (
             <>
               <p className="text-center">
-                Here you can search anythings that can help you
-              </p>
+                </p>
             </>
           )}
           {state === "error" && <AlertComponent />}
